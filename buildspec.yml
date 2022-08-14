@@ -20,8 +20,6 @@ phases:
     - yarn test
     - echo building...
     - yarn build
-  artifacts :
+  artifacts:
   files:
-    - "**/*"
-    discard-paths: no
-    base-directory: dist
+    - target/messageUtil-1.0.jar
